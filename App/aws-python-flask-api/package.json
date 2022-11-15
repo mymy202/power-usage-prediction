@@ -1,0 +1,17 @@
+{
+  "name": "power-usage-prediction",
+  "version": "1.0.0",
+  "description": "Power usage prediction using aws lambda to show prediction",
+  "author": "No pain no gain - Big data HCM 2022",
+  "scripts": {
+    "start": "serverless wsgi serve",
+    "build": "",
+    "setup": "python -m venv ./venv",
+    "install": "npm install & pip install -r requirements.txt",
+    "deploy": ""
+  },
+  "devDependencies": {
+    "serverless-python-requirements": "^5.1.0",
+    "serverless-wsgi": "^1.7.6"
+  }
+}
