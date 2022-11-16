@@ -6,8 +6,7 @@
   "scripts": {
     "start": "serverless wsgi serve",
     "build": "",
-    "setup": "python -m venv ./venv",
-    "install": "npm install & pip install -r requirements.txt",
+    "setup": "python -m venv ./venv && npm install && pip install -r requirements.txt",
     "deploy": ""
   },
   "devDependencies": {
